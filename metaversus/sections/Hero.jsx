@@ -40,7 +40,7 @@ const Hero = () => (
           />
 
           <a href='#explore'>
-            <div className='w-full flex justify-end sm:mt-[70px] -mt-[50px] pr-[40px] relative z-10'>
+            <div className='w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10'>
               <img
                  src='/stamp.png'
                  alt='stamp'
@@ -49,7 +49,6 @@ const Hero = () => (
             </div>
           </a>
       </motion.div>
-
     </motion.div>
   </section>
 );
